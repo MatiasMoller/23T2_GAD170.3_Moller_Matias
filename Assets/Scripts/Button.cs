@@ -15,7 +15,7 @@ public class Button : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O) && playerInRange)
+        if (Input.GetKeyDown(KeyCode.I) && playerInRange)
         {
             door.DestroyDoor();
         }
