@@ -2102,6 +2102,7 @@ MonoBehaviour:
   dialogBox: {fileID: 494907634}
   dialog: To interact with buttons, press the letter 'O'
   playerInRange: 0
+  tutorialText: {fileID: 0}
 --- !u!1 &624917258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,7 +2120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &624917259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7060,6 +7061,7 @@ MonoBehaviour:
   dialogBox: {fileID: 79990983}
   dialog: Tutorial   WASD to move  Spacebar to jump Collect coins to advance
   playerInRange: 0
+  tutorialText: {fileID: 624917258}
 --- !u!1001 &7779135873023082888
 PrefabInstance:
   m_ObjectHideFlags: 0

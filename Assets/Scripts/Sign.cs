@@ -10,6 +10,7 @@ public class Sign : MonoBehaviour
     
     public string dialog;
     public bool playerInRange;
+    [SerializeField] private GameObject tutorialText;
     // Start is called before the first frame update
     
 
@@ -36,6 +37,7 @@ public class Sign : MonoBehaviour
         {
             Debug.Log("Player in range");
             playerInRange = true;
+            tutorialText.SetActive(true);
         }
     }
 
@@ -46,6 +48,7 @@ public class Sign : MonoBehaviour
             Debug.Log("Player is not in range");
             playerInRange = false;
             dialogBox.SetActive(false);
+            tutorialText.SetActive(false);
         }
     }
 }
