@@ -7,7 +7,7 @@ using TMPro;
 public class Sign : MonoBehaviour
 {
     public GameObject dialogBox;
-    public TextMeshProUGUI dialogText;
+    
     public string dialog;
     public bool playerInRange;
     // Start is called before the first frame update
@@ -25,7 +25,7 @@ public class Sign : MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
-                dialogText.text = dialog;
+                
             }
         }
     }

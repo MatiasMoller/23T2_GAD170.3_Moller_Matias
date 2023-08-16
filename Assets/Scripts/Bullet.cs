@@ -13,4 +13,10 @@ public class Bullet : MonoBehaviour
     {
         Destroy(gameObject); // Destroy the bullet
     }
+
+    private void Update()
+    {
+        Debug.Log("Bullet destroyed after 2 sec");
+        Destroy(gameObject, 2f);
+    }
 }

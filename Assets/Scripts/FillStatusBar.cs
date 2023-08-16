@@ -8,6 +8,7 @@ public class FillStatusBar : MonoBehaviour
     [SerializeField] private Health health;
     [SerializeField] private Image fillImage;
     private Slider slider;
+    
 
     private void Awake()
     {

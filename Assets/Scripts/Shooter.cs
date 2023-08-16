@@ -6,6 +6,7 @@ public class Shooter : MonoBehaviour
 {
     public GameObject Bullet;
     public GameObject FirePosition;
+    public AudioSource Blaster;
 
 
     // Update is called once per frame
@@ -20,6 +21,8 @@ public class Shooter : MonoBehaviour
     public void Shooting()
     {
         Instantiate(Bullet, FirePosition.transform.position, FirePosition.transform.rotation);
+        Blaster.Play(); // Play the sound effect
         Debug.Log("BulletSpawned");
     }
+
 }

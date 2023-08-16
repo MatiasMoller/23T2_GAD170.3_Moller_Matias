@@ -8,6 +8,9 @@ TagManager:
   - Spike
   - Door
   - Coin
+  - Wall
+  - Bullet
+  - Star
   layers:
   - Default
   - TransparentFX
